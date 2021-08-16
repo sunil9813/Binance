@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>WEB AGENCY</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="navbar">
+    <div class="container">
+      <div class="content">
+        <div class="brand">
+          <h2>Binance </h2>
+        </div>
+        <nav>
+          <ul id="menuitem">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Why Us</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </nav>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+      <div class="home flex">
+        <div class="left">
+          <h1>WE HELP GROW <br>
+            YOUR BUSINESS</h1>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="btn ">Read More</a>
+        </div>
+        <div class="right">
+          <img src="image/home.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "200px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+
+  <section class="wrapper top">
+    <div class="container flex">
+      <div class="left">
+        <img src="image/a.png" alt="">
+      </div>
+      <div class="right mtop">
+        <h1>We Are Fonance</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="service top center">
+    <div class="container">
+      <h1>Our Services</h1>
+      <div class="items grid">
+        <div class="box">
+          <img src="https://img.icons8.com/wired/64/ffffff/marketing.png" />
+          <h3>MARKET RESEARCH</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/cotton/64/ffffff/web-marketing.png" />
+          <h3>MARKET RESEARCH</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+        </div>
+        <div class="box">
+          <img src="https://img.icons8.com/ios/50/ffffff/exhibitor.png" />
+          <h3>MARKET RESEARCH</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+        </div>
+      </div>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a href="#" class="btn">View More</a>
+    </div>
+  </section>
+
+
+  <section class="wraper2 top">
+    <div class="container flex">
+      <div class="left mtop">
+        <h2>Manage Your <br> Investments easily</h2>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="right">
+        <img src="image/a2.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="service top center padding service2">
+    <h1>Why Choose Us</h1>
+    <div class="items grid">
+      <div class="box">
+        <img src="https://img.icons8.com/wired/64/ffffff/marketing.png" />
+        <h3>MARKET RESEARCH</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+      </div>
+      <div class="box">
+        <img src="https://img.icons8.com/cotton/64/ffffff/web-marketing.png" />
+        <h3>MARKET RESEARCH</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+      </div>
+      <div class="box">
+        <img src="https://img.icons8.com/ios/50/ffffff/exhibitor.png" />
+        <h3>MARKET RESEARCH</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+      </div>
+      <div class="box">
+        <img src="https://img.icons8.com/ios/50/ffffff/exhibitor.png" />
+        <h3>MARKET RESEARCH</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn btn1">Read More <i class="fa fa-long-arrow-right"></i> </a>
+      </div>
+    </div>
+    <div class="container">
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a href="#" class="btn">View More</a>
+    </div>
+  </section>
+
+
+
+  <section class="contact top">
+    <div class="container">
+      <div class="content flex">
+        <div class="left">
+          <form>
+            <h1>Contact Us</h1>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Your Email">
+            <textarea name="name" rows="5" cols="80">Message</textarea>
+            <a href="#" class="btn">SEND</a>
+          </form>
+        </div>
+        <div class="right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d85.32395955!3d27.69383745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sne!2snp!4v1626973709330!5m2!1sne!2snp" width="600" height="450"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cutsomer top">
+    <div class="container">
+      <h1 class="center">What Says Our Customers</h1>
+      <div class="itme grid">
+        <div class="box">
+          <div class="img">
+            <img src="image/c1.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Alex Ander</h3>
+            <span>Hongkog,Chine</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/c2.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Alex Ander</h3>
+            <span>Hongkog,Chine</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/c3.jpg" alt="">
+          </div>
+          <div class="text">
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Alex Ander</h3>
+            <span>Hongkog,Chine</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container top grid">
+      <div class="box">
+        <h2>Address</h2>
+        <i class="fa fa-map"></i>
+        <label>Location</label><br>
+        <i class="fa fa-phone"></i>
+        <label>Call +977 987154854</label> <br>
+        <i class="fa fa-envelope"></i>
+        <label>yourmail@.com</label><br>
+      </div>
+      <div class="box">
+        <h2>Info</h2>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="box">
+        <h2>Links</h2>
+        <span>Home</span>
+        <span>About</span>
+        <span>Services</span>
+        <span>Why Us</span>
+        <span>Contact Us</span>
+      </div>
+      <div class="box">
+        <h2>Subscribe</h2>
+        <input type="text" placeholder="Enter Your Email">
+        <input type="submit" placeholder="SEND">
+      </div>
+    </div>
+    <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made by <i class="fa fa-heart"></i> Dot Studio</p>
+  </footer>
+</body>
+
+</html>
